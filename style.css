@@ -135,47 +135,51 @@ hr {
     margin: 0px 0px 0px -50px;
     position: absolute;
     width: 320px;
-    height: 300px;
+    height: 320px;
   }
   #container {
     width: 90vw;
-    height: 70vh;
+    height: 580px;
   }
   h1,
   #green-text {
-    font-size: 40px;
+    font-size: 35px;
     line-height: 40px;
     padding-left: 20px;
     width: 80vw;
   }
   p {
-    padding-left: 30px;
-    padding-top: 0px;
+    padding: 0px 10px 0px 20px;
     /* text-xl/leading-7/font-normal */
-    font-size: 16px;
-    line-height: 16px;
+    font-size: auto;
+    line-height: 20px;
     width: 80vw;
+    height: 20vh;
     /* identical to box height, or 140% */
   }
   hr {
     width: 80vw;
     left: 15px;
-    top: 265px;
+    top: 315px;
   }
   #generate-random-comments {
-    top: 400px;
-    padding: 5px 10px;
+    display: block;
+    margin: 5px auto;
+    top: 510px;
     font-size: 12px;
-    line-height: 16px;
-    left: 70px;
+    line-height: 14px;
+    left: 75px;
     width: 40vw;
     align-items: center;
+    text-align: center;
   }
 
   #password-1 {
+    display: block;
+    margin-right: auto;
     width: 80vw;
-    height: 95px;
+    height: 150px;
     left: 0px;
-    top: 285px;
+    top: 340px;
   }
 }
